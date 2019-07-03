@@ -1,0 +1,8 @@
+/Users/markhuang/Documents/revature/Bank/Entities/bin/Debug/netcoreapp2.1/Entities.deps.json
+/Users/markhuang/Documents/revature/Bank/Entities/bin/Debug/netcoreapp2.1/Entities.dll
+/Users/markhuang/Documents/revature/Bank/Entities/bin/Debug/netcoreapp2.1/Entities.pdb
+/Users/markhuang/Documents/revature/Bank/Entities/obj/Debug/netcoreapp2.1/Entities.csproj.CoreCompileInputs.cache
+/Users/markhuang/Documents/revature/Bank/Entities/obj/Debug/netcoreapp2.1/Entities.AssemblyInfoInputs.cache
+/Users/markhuang/Documents/revature/Bank/Entities/obj/Debug/netcoreapp2.1/Entities.AssemblyInfo.cs
+/Users/markhuang/Documents/revature/Bank/Entities/obj/Debug/netcoreapp2.1/Entities.dll
+/Users/markhuang/Documents/revature/Bank/Entities/obj/Debug/netcoreapp2.1/Entities.pdb

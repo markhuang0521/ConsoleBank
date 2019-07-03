@@ -1,0 +1,237 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/markhuang/Documents/revature/Bank/Bank/client.csproj": {}
+  },
+  "projects": {
+    "/Users/markhuang/Documents/revature/Bank/Bank/client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/markhuang/Documents/revature/Bank/Bank/client.csproj",
+        "projectName": "client",
+        "projectPath": "/Users/markhuang/Documents/revature/Bank/Bank/client.csproj",
+        "packagesPath": "/Users/markhuang/.nuget/packages/",
+        "outputPath": "/Users/markhuang/Documents/revature/Bank/Bank/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/markhuang/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "/Users/markhuang/Documents/revature/Bank/business/business.csproj": {
+                "projectPath": "/Users/markhuang/Documents/revature/Bank/business/business.csproj"
+              },
+              "/Users/markhuang/Documents/revature/Bank/Entities/Entities.csproj": {
+                "projectPath": "/Users/markhuang/Documents/revature/Bank/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/markhuang/Documents/revature/Bank/business/business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/markhuang/Documents/revature/Bank/business/business.csproj",
+        "projectName": "business",
+        "projectPath": "/Users/markhuang/Documents/revature/Bank/business/business.csproj",
+        "packagesPath": "/Users/markhuang/.nuget/packages/",
+        "outputPath": "/Users/markhuang/Documents/revature/Bank/business/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/markhuang/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "/Users/markhuang/Documents/revature/Bank/dataBase/dataBase.csproj": {
+                "projectPath": "/Users/markhuang/Documents/revature/Bank/dataBase/dataBase.csproj"
+              },
+              "/Users/markhuang/Documents/revature/Bank/Entities/Entities.csproj": {
+                "projectPath": "/Users/markhuang/Documents/revature/Bank/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/markhuang/Documents/revature/Bank/dataBase/dataBase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/markhuang/Documents/revature/Bank/dataBase/dataBase.csproj",
+        "projectName": "dataBase",
+        "projectPath": "/Users/markhuang/Documents/revature/Bank/dataBase/dataBase.csproj",
+        "packagesPath": "/Users/markhuang/.nuget/packages/",
+        "outputPath": "/Users/markhuang/Documents/revature/Bank/dataBase/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/markhuang/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "/Users/markhuang/Documents/revature/Bank/Entities/Entities.csproj": {
+                "projectPath": "/Users/markhuang/Documents/revature/Bank/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/markhuang/Documents/revature/Bank/Entities/Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/markhuang/Documents/revature/Bank/Entities/Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "/Users/markhuang/Documents/revature/Bank/Entities/Entities.csproj",
+        "packagesPath": "/Users/markhuang/.nuget/packages/",
+        "outputPath": "/Users/markhuang/Documents/revature/Bank/Entities/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/markhuang/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

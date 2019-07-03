@@ -1,0 +1,14 @@
+/Users/markhuang/Documents/revature/Bank/dataBase/bin/Debug/netcoreapp2.1/dataBase.deps.json
+/Users/markhuang/Documents/revature/Bank/dataBase/bin/Debug/netcoreapp2.1/dataBase.dll
+/Users/markhuang/Documents/revature/Bank/dataBase/bin/Debug/netcoreapp2.1/dataBase.pdb
+/Users/markhuang/Documents/revature/Bank/dataBase/bin/Debug/netcoreapp2.1/Entities.dll
+/Users/markhuang/Documents/revature/Bank/dataBase/bin/Debug/netcoreapp2.1/Entities.pdb
+/Users/markhuang/Documents/revature/Bank/dataBase/obj/Debug/netcoreapp2.1/dataBase.csprojAssemblyReference.cache
+/Users/markhuang/Documents/revature/Bank/dataBase/obj/Debug/netcoreapp2.1/dataBase.csproj.CoreCompileInputs.cache
+/Users/markhuang/Documents/revature/Bank/dataBase/obj/Debug/netcoreapp2.1/dataBase.AssemblyInfoInputs.cache
+/Users/markhuang/Documents/revature/Bank/dataBase/obj/Debug/netcoreapp2.1/dataBase.AssemblyInfo.cs
+/Users/markhuang/Documents/revature/Bank/dataBase/obj/Debug/netcoreapp2.1/dataBase.csproj.CopyComplete
+/Users/markhuang/Documents/revature/Bank/dataBase/obj/Debug/netcoreapp2.1/dataBase.dll
+/Users/markhuang/Documents/revature/Bank/dataBase/obj/Debug/netcoreapp2.1/dataBase.pdb
+/Users/markhuang/Documents/revature/Bank/dataBase/bin/Debug/netcoreapp2.1/dataBase.runtimeconfig.json
+/Users/markhuang/Documents/revature/Bank/dataBase/bin/Debug/netcoreapp2.1/dataBase.runtimeconfig.dev.json

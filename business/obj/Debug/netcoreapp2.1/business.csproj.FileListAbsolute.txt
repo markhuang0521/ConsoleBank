@@ -1,0 +1,14 @@
+/Users/markhuang/Documents/revature/Bank/business/bin/Debug/netcoreapp2.1/business.deps.json
+/Users/markhuang/Documents/revature/Bank/business/bin/Debug/netcoreapp2.1/business.dll
+/Users/markhuang/Documents/revature/Bank/business/bin/Debug/netcoreapp2.1/business.pdb
+/Users/markhuang/Documents/revature/Bank/business/bin/Debug/netcoreapp2.1/dataBase.dll
+/Users/markhuang/Documents/revature/Bank/business/bin/Debug/netcoreapp2.1/Entities.dll
+/Users/markhuang/Documents/revature/Bank/business/bin/Debug/netcoreapp2.1/Entities.pdb
+/Users/markhuang/Documents/revature/Bank/business/bin/Debug/netcoreapp2.1/dataBase.pdb
+/Users/markhuang/Documents/revature/Bank/business/obj/Debug/netcoreapp2.1/business.csprojAssemblyReference.cache
+/Users/markhuang/Documents/revature/Bank/business/obj/Debug/netcoreapp2.1/business.csproj.CoreCompileInputs.cache
+/Users/markhuang/Documents/revature/Bank/business/obj/Debug/netcoreapp2.1/business.AssemblyInfoInputs.cache
+/Users/markhuang/Documents/revature/Bank/business/obj/Debug/netcoreapp2.1/business.AssemblyInfo.cs
+/Users/markhuang/Documents/revature/Bank/business/obj/Debug/netcoreapp2.1/business.csproj.CopyComplete
+/Users/markhuang/Documents/revature/Bank/business/obj/Debug/netcoreapp2.1/business.dll
+/Users/markhuang/Documents/revature/Bank/business/obj/Debug/netcoreapp2.1/business.pdb

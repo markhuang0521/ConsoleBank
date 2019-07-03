@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{B7304556-0A0B-48EA-9BB6-0D580F7BD4E3}|Default">
+  <MonoDevelop.Ide.ItemProperties.client PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Entities/TermDeposit.cs">
+    <Files>
+      <File FileName="Bank/Program.cs" Line="31" Column="59" />
+      <File FileName="business/CustomerBL.cs" Line="8" Column="35" />
+      <File FileName="dataBase/CustomerDAL.cs" Line="123" Column="29" />
+      <File FileName="Entities/Account.cs" Line="96" Column="1" />
+      <File FileName="Entities/TermDeposit.cs" Line="45" Column="91" />
+      <File FileName="Entities/IAccount.cs" Line="10" Column="41" />
+      <File FileName="Entities/Transaction.cs" Line="15" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Bank" expanded="True">
+            <Node name="business" expanded="True" />
+            <Node name="client" expanded="True" />
+            <Node name="dataBase" expanded="True" />
+            <Node name="Entities" expanded="True">
+              <Node name="TermDeposit.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <FunctionBreakpoint line="0" column="0" function="CustomerDAL.creat" language="C#" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

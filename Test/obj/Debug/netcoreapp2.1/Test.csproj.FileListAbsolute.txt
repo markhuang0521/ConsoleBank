@@ -1,0 +1,15 @@
+/Users/markhuang/Documents/revature/Bank/Test/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/markhuang/Documents/revature/Bank/Test/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/markhuang/Documents/revature/Bank/Test/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/markhuang/Documents/revature/Bank/Test/bin/Debug/netcoreapp2.1/Test.dll.config
+/Users/markhuang/Documents/revature/Bank/Test/bin/Debug/netcoreapp2.1/Test.deps.json
+/Users/markhuang/Documents/revature/Bank/Test/bin/Debug/netcoreapp2.1/Test.runtimeconfig.json
+/Users/markhuang/Documents/revature/Bank/Test/bin/Debug/netcoreapp2.1/Test.runtimeconfig.dev.json
+/Users/markhuang/Documents/revature/Bank/Test/bin/Debug/netcoreapp2.1/Test.dll
+/Users/markhuang/Documents/revature/Bank/Test/bin/Debug/netcoreapp2.1/Test.pdb
+/Users/markhuang/Documents/revature/Bank/Test/obj/Debug/netcoreapp2.1/Test.csprojAssemblyReference.cache
+/Users/markhuang/Documents/revature/Bank/Test/obj/Debug/netcoreapp2.1/Test.csproj.CoreCompileInputs.cache
+/Users/markhuang/Documents/revature/Bank/Test/obj/Debug/netcoreapp2.1/Test.AssemblyInfoInputs.cache
+/Users/markhuang/Documents/revature/Bank/Test/obj/Debug/netcoreapp2.1/Test.AssemblyInfo.cs
+/Users/markhuang/Documents/revature/Bank/Test/obj/Debug/netcoreapp2.1/Test.dll
+/Users/markhuang/Documents/revature/Bank/Test/obj/Debug/netcoreapp2.1/Test.pdb
