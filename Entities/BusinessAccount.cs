@@ -17,11 +17,26 @@ namespace Entities
             InterestRate = interestRate;
 
         }
+        public override void Deposit(double amount)
+        {
+            if (amount > 0)
+            {
+                Balance += amount;
+                transactions.Add(new Transaction("Deposit", amount));
+                Console.WriteLine($"current balance is {Balance:c} ");
+            }
+            else
+            {
+                Console.WriteLine("invalid deposit try again");
+            }
+        }
 
         public override double Withdraw(double amount)
         {
             Balance -= amount;
             OverDraft = (Balance - amount) * 1.1;
+            transactions.Add(new Transaction("withDraw", amount));
+            Console.WriteLine($"current balance is {Balance:c} ");
 
             return amount;
         }

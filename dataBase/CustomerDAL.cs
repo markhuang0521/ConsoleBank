@@ -11,11 +11,7 @@ namespace dataBase
     public static class CustomerDAL
     {
         public static List<Customer> customers = new List<Customer>();
-        //private static string connStr = ConfigurationManager.ConnectionStrings["Ecommerce"].ConnectionString;
 
-        //databse connectstring 
-        //private static string connStr = "Server=tcp:ming0521.database.windows.net,1433;Initial Catalog=Ecommerce;Persist Security Info=False;User ID=markhuang;Password=ming0521H;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
-        //private static SqlConnection connect = new SqlConnection(connStr);
 
 
 

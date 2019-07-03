@@ -19,14 +19,14 @@ namespace client
             Console.WriteLine(cust.CustId);
 
             //checking account 1
-            CheckingAccount acc1 = new CheckingAccount("chase", 200);
+            CheckingAccount acc1 = new CheckingAccount("chase", 1200);
             acc1.Deposit(100);
             acc1.Deposit(100);
             acc1.Withdraw(10000);
             acc1.Withdraw(100);
 
             CustomerBL.AddChecking(cust, acc1);
-            BusinessAccount capital = new BusinessAccount("capital", 1000);
+            BusinessAccount capital = new BusinessAccount("capital", 1000, .05);
             capital.Withdraw(2000);
             CustomerBL.AddBusiness(cust, capital);
 
@@ -35,7 +35,7 @@ namespace client
             CustomerBL.CreateCust(cust2);
             //Termdeposit 2
             DateTime end = new DateTime(2019, 7, 30);
-            var acc2 = new TermDeposit("capital", 200, 300);
+            var acc2 = new TermDeposit("capital", 2000, 30);
 
             acc2.Withdraw(100, end);
             CustomerBL.AddTermDeposit(cust2, acc2);
@@ -114,6 +114,7 @@ namespace client
             var cust = CustomerBL.GetCust(custid);
 
             Console.WriteLine("enter your account type ");
+            Console.WriteLine("checking, business,termDeposit,Loan");
             string acctype = Console.ReadLine();
 
             Console.WriteLine("enter your account id ");
@@ -225,11 +226,18 @@ namespace client
             switch (actionType.ToLower())
             {
 
-
                 case "withdraw":
-                    Console.WriteLine("enter amount");
+                    Console.WriteLine("enter withdraw amount");
                     double withdraw = Convert.ToInt32(Console.ReadLine());
-                    acc.Withdraw(withdraw);
+                    Console.WriteLine("enter withdraw year");
+                    int year = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("enter withdraw month");
+                    int month = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("enter withdraw day");
+                    int day = Convert.ToInt32(Console.ReadLine());
+                    DateTime end = new DateTime(year, month, day);
+
+                    acc.Withdraw(withdraw, end);
                     break;
 
                 case "transfer":
@@ -493,7 +501,7 @@ namespace client
 
             foreach (var acc in accounts)
             {
-                Console.WriteLine($"account name {acc.Name}, type {acc.type}, account #{acc.AccountID}, ${acc.Balance}");
+                Console.WriteLine($"account name {acc.Name}, type {acc.type}, account #{acc.AccountID}, balance ${acc.Balance}, overdraft ${acc.OverDraft}");
             }
 
 

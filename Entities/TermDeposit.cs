@@ -34,7 +34,9 @@ namespace Entities
         }
         public double Withdraw(double amount, DateTime end)
         {
-            int remainDays = RemainDays(end);
+            TimeSpan difference = end - StartDate;
+
+            int remainDays = difference.Days - DaysUntilWithdraw;
 
             if (remainDays >= 0)
             {
