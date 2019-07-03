@@ -12,6 +12,7 @@ namespace client
 
         static void Main(string[] args)
         {
+            //new bank;
             //create cust 1
             Customer cust = new Customer("mark");
             CustomerBL.CreateCust(cust);
